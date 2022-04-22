@@ -2,7 +2,7 @@
 
 Utility for analyzing logs. To build it, download the source and compile it into a single JAR by running: 
 ```
-mvn clean compile assembly:single
+mvn clean package
 ```
 
 To run, navigate to the directory where the JAR was built (usually /target) and run the following command. You must provide a file using the `--file` or `-f` option:
