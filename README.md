@@ -1,6 +1,6 @@
 ## Log Analyzer Utility
 
-Utility for analyzing logs. To build it, download the source and compile it into a single JAR by running: 
+Utility for analyzing logs. To build it, clone this repo and build the executable JAR by running: 
 ```
 mvn clean package
 ```
