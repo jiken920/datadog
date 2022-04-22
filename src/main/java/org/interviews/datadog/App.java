@@ -20,7 +20,7 @@ public class App {
         final HelpFormatter formatter = new HelpFormatter();
 
         // Read our defaults from the properties file
-        try (FileReader reader = new FileReader("application.properties")) {
+        try (FileReader reader = new FileReader("src/main/resources/application.properties")) {
             Properties props = new Properties();
             props.load(reader);
 
