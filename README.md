@@ -18,7 +18,8 @@ java -jar datadog-kenji-rudio-1.0-SNAPSHOT-jar-with-dependencies.jar --file d:\s
 
 Potential future improvements:
 1. Persist log statistics to a database for reporting.
-2. Ship log and application statistics to a metrics provider (such as Graphite) for real-time dashboards and alerting.
-3. Parameterize support for other file types besides CSV.
-4. Support other types of fields (columns) in logs.
-5. Help menu for users unfamiliar with the utility.
+2. Add logic to tail a log file indefinitely until the client exists.
+3. Ship log and application statistics to a metrics provider (such as Graphite) for real-time dashboards and alerting.
+4. Parameterized support for other file types besides CSV.
+5. Support other types of fields (columns) in logs.
+6. Help menu for users unfamiliar with the utility.
